@@ -1,0 +1,98 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>VDS_Editor_2026</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\de-DE\PropertyTranslations.xml" Link="de-DE\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\de-DE\UIStrings.xml" Link="de-DE\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\en-US\PropertyTranslations.xml" Link="en-US\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\en-US\UIStrings.xml" Link="en-US\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\File.xml" Link="Vault\Configuration\File.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\FileOffice.xml" Link="Vault\Configuration\FileOffice.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\DSLanguages.xml" Link="Vault\DSLanguages.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\MenuDefinitions.xml" Link="Vault\MenuDefinitions.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.Connectivity.WebServices">
+      <HintPath>SDK Refs\Autodesk.Connectivity.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.DataManagement.Client.Framework.Forms">
+      <HintPath>SDK Refs\Autodesk.DataManagement.Client.Framework.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>SDK Refs\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CreateObject">
+      <HintPath>SDK Refs\CreateObject.dll</HintPath>
+    </Reference>
+    <Reference Include="dataStandard.UI">
+      <HintPath>SDK Refs\dataStandard.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>SDK Refs\log4net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CAD\addins\" />
+    <Folder Include="CAD\Configuration\" />
+    <Folder Include="de-DE\" />
+    <Folder Include="en-US\" />
+    <Folder Include="Vault\addinVault\Menus\" />
+    <Folder Include="Vault\Configuration\Eco\" />
+    <Folder Include="Vault\Configuration\File\" />
+    <Folder Include="Vault\Configuration\Folder\" />
+    <Folder Include="Vault\Configuration\Task\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\addins\breadCrumb.ps1" Link="CAD\addins\breadCrumb.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\addins\Default.ps1" Link="CAD\addins\Default.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\addins\FileNameValidation.ps1" Link="CAD\addins\FileNameValidation.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\AutoCAD.cfg" Link="CAD\Configuration\AutoCAD.cfg" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\Inventor.cfg" Link="CAD\Configuration\Inventor.cfg" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\AssociatedFiles.ps1" Link="Vault\addinVault\AssociatedFiles.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Default.ps1" Link="Vault\addinVault\Default.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\FileBOM.ps1" Link="Vault\addinVault\FileBOM.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\CreateCustomObject.ps1" Link="Vault\addinVault\Menus\CreateCustomObject.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\CreateFile.ps1" Link="Vault\addinVault\Menus\CreateFile.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\CreateFolder.ps1" Link="Vault\addinVault\Menus\CreateFolder.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\EditCustomObject.ps1" Link="Vault\addinVault\Menus\EditCustomObject.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\EditFile.ps1" Link="Vault\addinVault\Menus\EditFile.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\EditFolder.ps1" Link="Vault\addinVault\Menus\EditFolder.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\sample1.ps1" Link="Vault\addinVault\Menus\sample1.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\Select Folder.ps1" Link="Vault\addinVault\Menus\Select Folder.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\ShowAboutDialog.ps1" Link="Vault\addinVault\Menus\ShowAboutDialog.ps1" />
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\addinVault\Menus\ShowLog.ps1" Link="Vault\addinVault\Menus\ShowLog.ps1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\AutoCAD.xaml" Link="CAD\Configuration\AutoCAD.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\CableAndHarness.xaml" Link="CAD\Configuration\CableAndHarness.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\DesignAccelerator.xaml" Link="CAD\Configuration\DesignAccelerator.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\FrameGenerator.xaml" Link="CAD\Configuration\FrameGenerator.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\Inventor.xaml" Link="CAD\Configuration\Inventor.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\SaveCopyAs.xaml" Link="CAD\Configuration\SaveCopyAs.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\CAD\Configuration\TubeAndPipe.xaml" Link="CAD\Configuration\TubeAndPipe.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\CustomObject.xaml" Link="Vault\Configuration\CustomObject.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\Eco\Datasheet.xaml" Link="Vault\Configuration\Eco\Datasheet.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\File.xaml" Link="Vault\Configuration\File.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\File\CAD BOM.xaml" Link="Vault\Configuration\File\CAD BOM.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\File\Datasheet.xaml" Link="Vault\Configuration\File\Datasheet.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\Folder.xaml" Link="Vault\Configuration\Folder.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\Folder\Datasheet.xaml" Link="Vault\Configuration\Folder\Datasheet.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\Item\Associated Files.xaml" Link="Vault\Configuration\Item\Associated Files.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\Item\Datasheet.xaml" Link="Vault\Configuration\Item\Datasheet.xaml" />
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\Task\Datasheet.xaml" Link="Vault\Configuration\Task\Datasheet.xaml" />
+  </ItemGroup>
+
+</Project>
