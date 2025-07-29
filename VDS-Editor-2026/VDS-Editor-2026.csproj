@@ -38,14 +38,38 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\cs-CZ\PropertyTranslations.xml" Link="cs-CZ\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\cs-CZ\UIStrings.xml" Link="cs-CZ\UIStrings.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\de-DE\PropertyTranslations.xml" Link="de-DE\PropertyTranslations.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\de-DE\UIStrings.xml" Link="de-DE\UIStrings.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\en-US\PropertyTranslations.xml" Link="en-US\PropertyTranslations.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\en-US\UIStrings.xml" Link="en-US\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\es-ES\PropertyTranslations.xml" Link="es-ES\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\es-ES\UIStrings.xml" Link="es-ES\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\fr-FR\PropertyTranslations.xml" Link="fr-FR\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\fr-FR\UIStrings.xml" Link="fr-FR\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\hu-HU\PropertyTranslations.xml" Link="hu-HU\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\hu-HU\UIStrings.xml" Link="hu-HU\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\it-IT\PropertyTranslations.xml" Link="it-IT\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\it-IT\UIStrings.xml" Link="it-IT\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\ja-JP\PropertyTranslations.xml" Link="ja-JP\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\ja-JP\UIStrings.xml" Link="ja-JP\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\ko-KR\PropertyTranslations.xml" Link="ko-KR\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\ko-KR\UIStrings.xml" Link="ko-KR\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\pl-PL\PropertyTranslations.xml" Link="pl-PL\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\pl-PL\UIStrings.xml" Link="pl-PL\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\pt-BR\PropertyTranslations.xml" Link="pt-BR\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\pt-BR\UIStrings.xml" Link="pt-BR\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\ru-RU\PropertyTranslations.xml" Link="ru-RU\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\ru-RU\UIStrings.xml" Link="ru-RU\UIStrings.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\File.xml" Link="Vault\Configuration\File.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\Configuration\FileOffice.xml" Link="Vault\Configuration\FileOffice.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\DSLanguages.xml" Link="Vault\DSLanguages.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\Vault\MenuDefinitions.xml" Link="Vault\MenuDefinitions.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\zh-CN\PropertyTranslations.xml" Link="zh-CN\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\zh-CN\UIStrings.xml" Link="zh-CN\UIStrings.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\zh-TW\PropertyTranslations.xml" Link="zh-TW\PropertyTranslations.xml" />
+    <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\zh-TW\UIStrings.xml" Link="zh-TW\UIStrings.xml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -74,8 +98,18 @@
     <Folder Include="CAD.Custom\Configuration\" />
     <Folder Include="CAD\addins\" />
     <Folder Include="CAD\Configuration\" />
+    <Folder Include="cs-CZ\" />
     <Folder Include="de-DE\" />
     <Folder Include="en-US\" />
+    <Folder Include="es-ES\" />
+    <Folder Include="fr-FR\" />
+    <Folder Include="hu-HU\" />
+    <Folder Include="it-IT\" />
+    <Folder Include="ja-JP\" />
+    <Folder Include="ko-KR\" />
+    <Folder Include="pl-PL\" />
+    <Folder Include="pt-BR\" />
+    <Folder Include="ru-RU\" />
     <Folder Include="Vault.Custom\addinVault\Menus\" />
     <Folder Include="Vault.Custom\Configuration\Eco\" />
     <Folder Include="Vault.Custom\Configuration\File\" />
@@ -87,6 +121,8 @@
     <Folder Include="Vault\Configuration\File\" />
     <Folder Include="Vault\Configuration\Folder\" />
     <Folder Include="Vault\Configuration\Task\" />
+    <Folder Include="zh-CN\" />
+    <Folder Include="zh-TW\" />
   </ItemGroup>
 
   <ItemGroup>
