@@ -11,6 +11,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Vault.Custom\Configuration\Eco\Icons\**" />
+    <Compile Remove="Vault.Custom\Configuration\File\Icons\**" />
+    <Compile Remove="Vault.Custom\Configuration\Main Group\**" />
+    <Compile Remove="Vault.Custom\Configuration\Segment\**" />
+    <Compile Remove="Vault.Custom\Configuration\Sub Group\**" />
+    <Compile Remove="Vault.Custom\Configuration\Term\**" />
+    <EmbeddedResource Remove="Vault.Custom\Configuration\Eco\Icons\**" />
+    <EmbeddedResource Remove="Vault.Custom\Configuration\File\Icons\**" />
+    <EmbeddedResource Remove="Vault.Custom\Configuration\Main Group\**" />
+    <EmbeddedResource Remove="Vault.Custom\Configuration\Segment\**" />
+    <EmbeddedResource Remove="Vault.Custom\Configuration\Sub Group\**" />
+    <EmbeddedResource Remove="Vault.Custom\Configuration\Term\**" />
+    <None Remove="Vault.Custom\Configuration\Eco\Icons\**" />
+    <None Remove="Vault.Custom\Configuration\File\Icons\**" />
+    <None Remove="Vault.Custom\Configuration\Main Group\**" />
+    <None Remove="Vault.Custom\Configuration\Segment\**" />
+    <None Remove="Vault.Custom\Configuration\Sub Group\**" />
+    <None Remove="Vault.Custom\Configuration\Term\**" />
+    <Page Remove="Vault.Custom\Configuration\Eco\Icons\**" />
+    <Page Remove="Vault.Custom\Configuration\File\Icons\**" />
+    <Page Remove="Vault.Custom\Configuration\Main Group\**" />
+    <Page Remove="Vault.Custom\Configuration\Segment\**" />
+    <Page Remove="Vault.Custom\Configuration\Sub Group\**" />
+    <Page Remove="Vault.Custom\Configuration\Term\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\de-DE\PropertyTranslations.xml" Link="de-DE\PropertyTranslations.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\de-DE\UIStrings.xml" Link="de-DE\UIStrings.xml" />
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2026\Extensions\DataStandard\en-US\PropertyTranslations.xml" Link="en-US\PropertyTranslations.xml" />
@@ -43,10 +70,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="CAD.Custom\addins\" />
+    <Folder Include="CAD.Custom\Configuration\" />
     <Folder Include="CAD\addins\" />
     <Folder Include="CAD\Configuration\" />
     <Folder Include="de-DE\" />
     <Folder Include="en-US\" />
+    <Folder Include="Vault.Custom\addinVault\Menus\" />
+    <Folder Include="Vault.Custom\Configuration\Eco\" />
+    <Folder Include="Vault.Custom\Configuration\File\" />
+    <Folder Include="Vault.Custom\Configuration\Folder\" />
+    <Folder Include="Vault.Custom\Configuration\Item\" />
+    <Folder Include="Vault.Custom\Configuration\Task\" />
     <Folder Include="Vault\addinVault\Menus\" />
     <Folder Include="Vault\Configuration\Eco\" />
     <Folder Include="Vault\Configuration\File\" />
