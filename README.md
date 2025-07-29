@@ -11,6 +11,8 @@ Please continue editing XAML and script files like this: I would recommend you d
 Please submit any issues in the [Issues section](https://github.com/koechlm/VDS-Editor-2026/issues) of this repository.
 Please respect the disclaimer included in the download.
 
+Users migrating legacy configurations can download a step-by-step documentation: https://autode.sk/46x3wuM
+
 Sincerely,
 Markus Koechl
 
